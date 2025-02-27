@@ -5,10 +5,3 @@ def es_primo(n):
         if n % i == 0:
             return False
     return True
-
-# Prueba del código
-num = int(input("Ingresa un número: "))
-if es_primo(num):
-    print(f"{num} es primo")
-else:
-    print(f"{num} no es primo")
